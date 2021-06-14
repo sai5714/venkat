@@ -2,7 +2,7 @@ const { WebClient, LogLevel } = require("@slack/web-api");
 
 // WebClient insantiates a client that can call API methods
 // When using Bolt, you can use either `app.client` or the `client` passed to listeners.
-const client = new WebClient("xoxb-4995230642-2142665189072-Hnuy7vjuyzHCbQpg4XG8GFZr", {
+const client = new WebClient("", {
     // LogLevel can be imported and used to make debugging simpler
     logLevel: LogLevel.DEBUG
 });
